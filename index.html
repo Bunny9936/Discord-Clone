@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Clone| Your Place to Talk and Hangout</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .loginbutton:hover{
+            box-shadow: 3px 3px 10px rgba(0, 0, 139, 0.644), -3px -3px 10px rgba(0, 0, 139, 0.644) ;
+        }
+        .downloadbutton:hover{
+            box-shadow: 1px 1px 15px rgba(14, 14, 163, 0.37), -1px -1px 15px rgba(14, 14, 163, 0.37);
+            opacity: 0.9;
+
+        }
+    </style>
+</head>
+<body>
+<div class="overflow-x-hidden">
+    <nav class="w-full bg-[#404EED] flex flex-row justify-between px-[5.6rem] py-5 items-center font-[ggSans] ">
+        <div>
+            <img src="images/logo.svg" alt="">
+
+        </div>
+
+        
+            <ul class=" w-6/12 flex flex-row space-x-10 font-semibold  text-white">
+            <li class="hover:underline"><a href="">Download</a></li>
+            <li class="hover:underline"><a href="">Nitro</a></li>
+            <li class="hover:underline"><a href="">Discover</a></li>
+            <li class="hover:underline"><a href="">Safety</a></li>
+            <li class="hover:underline"><a href="">Support</a></li>
+            <li class="hover:underline"><a href="">Blog</a></li>
+            <li class="hover:underline"><a href="">Careers</a></li>
+        </ul>
+
+        
+
+        <div>
+            <button class="bg-white rounded-full px-4 hover:text-blue-500 cursor-pointer loginbutton text-sm py-2" >Login</button>
+        </div>
+    </nav>
+
+    <!-- herosection -->
+
+    <div class="bg-[#404EED] relative h-[85vh] w-full ">
+        <img src="images/clouds.svg" loading="lazy" class="absolute bottom-[9.36rem] -right-2 z-[5] scale-[1.9]" alt="">
+        <img src="images/hero left image.svg" loading="lazy" class="absolute bottom-0 -ml-[20rem] z-[5]"  alt="">
+        <img src="images/hero right image.svg" loading="lazy" class="absolute bottom-0 ml-[64.5rem] z-[5]" alt="">
+        <div class="text-white text-center gap-6 max-w-[1000px] flex flex-col mx-auto px-7 pt-28 ">
+        <h1 class=" text-[56px]  font-[GintoNord] z-10 " style="font-weight: 800;">IMAGINE A PLACE...</h1>
+        <p class="font-[ggSans] text-[20px] z-10 leading-8">...where you can belong to a school club, a gaming group, or a worldwide art community. <br>Where just you and a handful of friends can spend time together. A place that makes it easy <br>to talk every day and hang out more often.</p>
+        </div>
+
+        <div class=" text-[20px] flex  flex-row items-center justify-center space-x-4 mt-10  ">
+            <button class="bg-white text-black rounded-full hover:text-blue-500 flex downloadbutton z-10 items-center px-7 py-3"><svg width="24" height="24" viewBox="0 0 24 24" class="icon-2tQ9Jt mr-2"><g fill="currentColor"><path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"></path><path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z"></path></g></svg>Download for Windows</button>
+            <button class="bg-[#23272a] text-white rounded-full z-10 px-7 py-3 downloadbutton">Open Discord in your browser</button>
+        </div>
+    </div>
+
+    <!-- section2 -->
+    <section >
+    <div class="flex flex-row justify-center pt-32 gap-32">
+        <!-- left -->
+        <img src="images/section2 image.svg" loading="lazy" alt="">
+        <!-- right -->
+        <div class="font-[ggSans] text-[#23272a] flex flex-col gap-7 mt-14 max-w-[380px] ">
+            <h2 class="text-[48px] leading-[55px]" style="font-weight: 800;" >Create an invite-only place where you belong</h2>
+            <p class="text-[20px] leading-[35px] ">Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.</p>
+        </div>
+    </div>
+    </section>
+    
+    <!-- section3 -->
+    <section class="bg-[#f6f6f6] mt-[110px]" >
+        <div class="flex flex-row-reverse justify-center pt-32 pb-28 gap-32">
+            <!-- left -->
+            <img src="images/section3 image.svg" loading="lazy" alt="">
+            <!-- right -->
+            <div class="font-[ggSans] text-[#23272a] flex flex-col gap-7 mt-14 max-w-[380px] ">
+                <h2 class="text-[48px] leading-[55px]" style="font-weight: 800;" >Where hanging out is easy</h2>
+                <p class="text-[20px] leading-[35px] ">Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- section4 -->
+    <section >
+        <div class="flex flex-row justify-center pt-28 pb-28  gap-32">
+            <!-- left -->
+            <img src="images/section4 image.svg" width="678px" height="479px" loading="lazy" alt="">
+            <!-- right -->
+            <div class="font-[ggSans] text-[#23272a] flex flex-col gap-7 mt-14 max-w-[380px] ">
+                <h2 class="text-[48px] leading-[55px]" style="font-weight: 800;" >From few to a fandom</h2>
+                <p class="text-[20px] leading-[35px] ">Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- section5 -->
+    <section class="bg-[#f6f6f6]">
+      <div class="pt-28 pb-28 flex flex-col relative justify-between items-center">
+          <div class="max-w-[1000px]">
+          <h2 class="font-[GintoNord] text-[40px] text-center text-[#23272a] " style="font-weight: 800;">RELIABLE TECH FOR STAYING CLOSE</h2>
+          <p class="text-[20px] leading-[35px] font-[ggSans] text-center mt-4 text-[#23272a] ">Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</p>
+          </div> 
+        <img src="images/section5 image.svg" class="mt-2" width="1180px" alt="">
+
+        <img src="images/stars.svg" class="absolute bottom-56 z-10"  alt="">
+        <h3 class="font-[ggSans] text-[32px] mt-[90px] text-black" style="font-weight: 700;">Ready to start your journey?</h3>
+        <button class="bg-[#404EED] text-white font-[ggSans] downloadbutton text-xl rounded-full flex mt-[35px] items-center px-9 py-3"><svg width="24" height="24" viewBox="0 0 24 24" class="icon-2tQ9Jt mr-2"><g fill="currentColor"><path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"></path><path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z"></path></g></svg>Download for Windows</button>
+      </div> 
+    </section>
+
+    <!-- footersection -->
+    <footer class="bg-[#23272a]">
+      <div class="flex flex-row justify-between py-20 px-24">
+        <!-- left -->
+        <div class="flex flex-col cursor-pointer  pt-8 gap-y-10">
+            <div class="text-white font-[ggSans] text-md flex flex-row items-center gap-x-2 ">
+                <img src="images/us flag.png" width="24" height="24" alt="">
+                <p>English, USA</p> 
+                <i class="fa-solid fa-chevron-down  text-xs"></i>
+                
+            </div>
+            <div class="flex flex-row gap-8 text-white ">
+                <i class="fa-brands fa-twitter text-[22px]" ></i>
+                <i class="fa-brands fa-instagram text-[24px]"></i>
+                <i class="fa-brands fa-facebook text-[24px]"></i>
+                <i class="fa-brands fa-youtube text-[24px]"></i>
+            </div>
+
+            
+        </div>
+       <div class="flex flex-row justify-center gap-24">
+        <div>
+          <h3 class="text-blue-500 font-[ggSans]">Product</h3>
+          <div class="text-white font-[ggSans] flex flex-col gap-2 mt-5">
+           
+           <a href="" class="hover:underline">Download</a>
+           <a href="" class="hover:underline">Nitro</a>
+           <a href="" class="hover:underline">Status</a>
+           <a href="" class="hover:underline">App Directory</a>
+          </div>
+        </div>
+
+        <div>
+            <h3 class="text-blue-500 font-[ggSans]">Company</h3>
+            <div class="text-white font-[ggSans] flex flex-col gap-2 mt-5">
+             
+             <a href="" class="hover:underline">About</a>
+             <a href="" class="hover:underline">Jobs</a>
+             <a href="" class="hover:underline">Brands</a>
+             <a href="" class="hover:underline">Newsroom</a>
+            </div>
+        </div>
+        
+        <div>
+            <h3 class="text-blue-500 font-[ggSans]">Resources</h3>
+            <div class="text-white font-[ggSans] flex flex-col gap-2 mt-5">
+             
+             <a href="" class="hover:underline">College</a>
+             <a href="" class="hover:underline">Support</a>
+             <a href="" class="hover:underline">Safety</a>
+             <a href="" class="hover:underline">Blog</a>
+             <a href="" class="hover:underline">Feedback</a>
+             <a href="" class="hover:underline">Developer</a>
+             <a href="" class="hover:underline">StreamKit</a>
+             <a href="" class="hover:underline">Creators</a>
+             <a href="" class="hover:underline">Community</a>
+             <a href="" class="hover:underline">Official 3rd Party Merch</a>
+            </div>
+        </div>
+
+        <div>
+            <h3 class="text-blue-500 font-[ggSans]">Policies</h3>
+            <div class="text-white font-[ggSans] flex flex-col gap-2 mt-5">
+             
+             <a href="" class="hover:underline">Terms</a>
+             <a href="" class="hover:underline">Privacy</a>
+             <a href="" class="hover:underline">Cookie Settings</a>
+             <a href="" class="hover:underline">Guidelines</a>
+             <a href="" class="hover:underline">Acknowledgements</a>
+             <a href="" class="hover:underline">Licenses</a>
+             <a href="" class="hover:underline">Company Information</a>
+           
+            </div>
+        </div>
+       </div> 
+      </div>  
+
+      <!-- bottomfooter -->
+
+      <div class="flex flex-row justify-between items-center pt-6 pb-16 w-[87%] mx-auto" style="border-top: 1px solid rgb(108, 108, 252);">
+        <img src="images/logo.svg" class="cursor-pointer" alt="">
+        <button class="bg-[#404EED] text-white font-[ggSans] downloadbutton text-sm font-semibold rounded-full flex mt-[34px] items-center px-4 py-2">Sign up</button>
+      </div>
+    </footer>
+        
+</div>
+
+</body>
+</html>
